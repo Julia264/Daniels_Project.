@@ -1,0 +1,406 @@
+/* start of home section */
+/* *{
+    box-sizing: border-box;
+} */
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+}
+.home{
+    background-image: url(../img/bg.jpg);
+    background-size: 100% 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.home-content h1{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.iconDiv{
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.logo{
+    float: left;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+h2::after{
+    content: " |";
+    animation: typing 20s infinite alternate;
+}
+@keyframes typing {
+    1%{content: "D |";}
+    2%{content: "De|";}
+    3%{content: "Dev|";}
+    4%{content: "Deve|";}
+    5%{content: "Devel|";}
+    6%{content: "Develo|";}
+    7%{content: "Develop|";}
+    8%{content: "Develope|";}
+    9%{content: "Developer|";}
+    10%{content: "Develope|";}
+    11%{content: "Develop|";}
+    12%{content: "Develo|";}
+    13%{content: "Devel|";}
+    14%{content: "Deve|";}
+    15%{content: "Dev|";}
+    16%{content: "De|";}
+    17%{content: "D|";}
+    18%{content: "|";}
+    19%{content: "D|";}
+    20%{content: "De|";}
+    21%{content: "Des|";}
+    22%{content: "Desi|";}
+    23%{content: "Desig|";}
+    24%{content: "Design|";}
+    25%{content: "Designe|";}
+    26%{content: "Designer|";}
+    27%{content: "Designe|";}
+    28%{content: "Design|";}
+    29%{content: "Desig|";}
+    30%{content: "Desi|";}
+    31%{content: "Des|";}
+    32%{content: "De|";}
+    33%{content: "D|";}
+    34%{content: "|";}
+    35%{content: "L|";}
+    36%{content: "La|";}
+    37%{content: "Lar|";}
+    38%{content: "Larr|";}
+    39%{content: "Larry|";}
+    40%{content: " Larry Da|";}
+    43%{content: " Larry Dan|";}
+    46%{content: " Larry Dani|";}
+    49%{content: " Larry Danie|";}
+    53%{content: "Larry Daniel|";}
+    56%{content: " Larry Daniels|";}
+    59%{content: " Larry Daniel|";}
+    63%{content: " Larry Danie|";}
+    66%{content: " Larry Dani|";}
+    69%{content: " Larry Dan|";}
+    73%{content: " Larry Da|";}
+    76%{content: " Larry D|";}
+    80%{content: " Larry |";}
+    84%{content: "Larr|";}
+    89%{content: "Lar|";}
+    94%{content: "La|";}
+    97%{content: "L|";}
+    100%{content: "|";}
+}
+.layer{
+   width: 100%;
+   height: 100%;
+   background-color: rgb(52, 52, 52,0.3);
+   
+}
+/* ***********************************************************end of home section********************************************** */
+/* start of about-me section */
+.about-me-header{
+    font-weight: 900;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 1.1;
+    color: inherit;
+}
+.jerry{
+    font-weight: 700;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+
+.hero::after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    /* background-color: yellow; */
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.Web-Design{
+    
+    height: 20px;
+    position: relative;
+    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+ 
+}
+.Branding,.Development{
+    height: 20px;
+    position: relative;
+    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+}
+.branding{
+    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%) inset;
+}
+.web-layer{
+        width: 95%;
+        height: 100%;
+        position:absolute;
+        border-radius: inherit;
+      
+}
+.branding-layer{
+    width: 85%;
+    height: 100%;
+    position:absolute;
+    border-radius: inherit;
+}
+.Development-layer{
+    width: 94%;
+    height: 100%;
+    position:absolute;
+    border-radius: inherit;
+}
+.Web-Design::before{
+content: " ";
+width: 97%;
+height: 100%;
+position:absolute;
+background-color: black;
+border-radius: inherit;
+color: #fff;
+
+}
+
+.Branding::before{
+    content: " ";
+    width: 86%;
+    height: 100%;
+    position:absolute;
+    background-color: black;
+    border-radius: inherit;
+    color: #fff;
+    
+    }
+
+    .Development::before{
+        content: " ";
+        width: 95%;
+        height: 100%;
+        position:absolute;
+        background-color: black;
+        border-radius: inherit;
+        color: #fff;
+        
+        }
+
+       
+       
+
+       /* ****************************************************end of section 2*********************************************** */
+       /*  start of services section*/
+       .services-section, .testimonials{
+        background-color: #f7f7f7;
+        /* background-color: red; */
+       }
+       .services-icon{
+        width: 60px;
+        height: 60px;
+        background: rgba(247, 247, 247,.9);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 30px;
+        font-size: 20px;
+        transition: all 1s;
+       } 
+       .services-item{
+        border: 1px solid rgb(232,232,232);
+        border-radius: 5px;
+       }
+       .services-item:hover .services-icon{
+           background-color: black;
+         color: #f4f4f4;
+       }
+      .services-content{
+        width: 80%;
+        margin: auto;
+      }
+      .services-header{
+        text-align: center;
+      }
+      .title-sec::after {
+           content: "";
+         background-image: url(../img/dots.png);
+         position: absolute;
+         top: 35px;
+         left: 50%;
+         width: 170px;
+         height: 20px;
+         transform: translateX(-50%);  
+         
+         
+         /* content: "";
+         width: 100%;
+         height: 30px;
+         background-image: url(../img/dots.png);
+         background-repeat: repeat;
+         position: absolute;
+         bottom: -10px;
+         left: 0;
+         z-index:-1 ; */
+      }
+      /* **************************************************************************end of services section 3********************************************  */
+
+
+
+      /* start of portofolio section 4 */
+      .nav-pills .nav-link.active{
+        background-color: transparent !important;
+        position: relative;
+        transition: all 1s;
+      }
+      .nav-pills .nav-link.active::after{
+        content: "";
+        width: 55%;
+        height: 2px;
+        bottom: 0PX;
+        left: 45%;
+        background-color: #1c1c1c;
+        position: absolute;
+        transform: translate(-50%, -50%);
+
+
+      }
+      .ALL-icon{
+        width: 30px;
+        height: 30px;
+        background: rgba(247, 247, 247,.9);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 30px;
+        font-size: 20px;
+        transition: all 1s;
+      }
+      .ALL-icon:hover  {
+background-color: white;
+border: 2px solid black;
+color: #1c1c1c;
+      }
+      .ALL-layer{
+        background-color: #f7f7f7;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        left: 10px;
+        bottom: 12px;
+        opacity: 0;
+        transition: all 0.8s;
+        transform: translateY(5px);
+      }
+      .ALL-layer:hover{
+        opacity: 1;
+      }
+      /*********************************************** end of services section 3******************************************** */
+      /* start of testimonials section 5 */
+      .testimonials-item{
+         width: 10%;
+      }
+      .carousel-indicators{
+        position: unset;
+      }
+      .carousel-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #748182;
+
+
+      }
+      /* ************************************************ end of testimonials section 5 **************************************/
+      /* start of happy-customers section 6  */
+      /* ************************************************end of happy-customers section 6 ***********************************/
+
+      /* start of our-blog section 7 */
+      .our-blog{
+        background-color: #f7f7f7;
+      }
+      .card{
+        overflow: hidden;
+      }
+      .card-img-top{
+        transition: all 0.5s;
+      }
+      .card-img-top:hover{
+ transform: scale(1.1);
+ 
+      }
+      /* ************************************************** end of our-blog section 7 ********************************************/
+      /* start of contact us section 8 */
+    
+      .contact-icon{
+        width: 60px;
+        height: 60px;
+        background: rgba(247, 247, 247,.9);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 20px;
+        margin: auto;
+        transition: all 0.5s;
+       } 
+       .contact-icon:hover  {
+        background-color: black;
+        color: #f7f7f7
+              }
+              .copyright{
+                font-size: 13px;
+                word-spacing: 2px;
+                color: #748182;
+                line-height: 1.8;
+                background-color: #1c1c1c;
+                padding-top: 1.5rem!important;
+               padding-bottom: 1.5rem!important;
+              }
+              /* .submit-btn:hover a{
+background-color: #fff;
+border: 1px solid black;
+border-radius: 2px;
+color: #1c1c1c;
+              } */
+              .contact form a {
+                border: 1px solid #1c1c1c;
+                background-color: black;
+                color: white;
+                padding: 10px 25px;
+                font-weight: 300;
+                margin-top: 15px;
+                transition: all 0.5s;
+
+              }
+              .contact form a:hover{
+                border: 2x solid #1c1c1c;
+                background-color: white !important;
+                color: black;
+                padding: 10px 25px;
+                font-weight: 300;
+                margin-top: 15px;
+              }
